@@ -1,0 +1,120 @@
+{
+  "fleets": [
+    {
+      "numberOfShips": 18,
+      "owner": "gergely.varkonyi@doctusoft.com",
+      "sourcePlanet": "id:planet:40ab5bbf-72ef-45f0-a6cd-c7ff4e650944",
+      "targetPlanet": "id:planet:660cfeb6-fbe7-492a-ae0d-556f34788876",
+      "totalTripLength": 22,
+      "turnsRemaining": 22
+    },
+    {
+      "numberOfShips": 7,
+      "owner": "RANDOM",
+      "sourcePlanet": "id:planet:70b1eb58-56fa-478b-9248-52e7a2b9daa1",
+      "targetPlanet": "id:planet:ac87d7db-9cf3-41b2-bcf6-4f7419cd5f7d",
+      "totalTripLength": 15,
+      "turnsRemaining": 15
+    }
+  ],
+  "id": "d3cc6bb9-b5eb-4ebd-9758-fcf5ae7104fd",
+  "mapId": "SIMPLE_MAP_1",
+  "planets": [
+    {
+      "coordinates": {
+        "x": 2,
+        "y": 2
+      },
+      "growthRate": 3,
+      "id": "id:planet:40ab5bbf-72ef-45f0-a6cd-c7ff4e650944",
+      "numberOfShips": 5,
+      "owner": "gergely.varkonyi@doctusoft.com"
+    },
+    {
+      "coordinates": {
+        "x": 2,
+        "y": 24
+      },
+      "growthRate": 3,
+      "id": "id:planet:e6d86175-bb0b-4b0e-84b1-b9b9c34d2f00",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 13,
+        "y": 13
+      },
+      "growthRate": 5,
+      "id": "id:planet:28ffa0b8-9441-44b4-96d4-58c07b67c3d6",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 16,
+        "y": 5
+      },
+      "growthRate": 1,
+      "id": "id:planet:14dc7570-6b0c-4054-b645-faa4ea2a2be7",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 10,
+        "y": 21
+      },
+      "growthRate": 1,
+      "id": "id:planet:ac87d7db-9cf3-41b2-bcf6-4f7419cd5f7d",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 19,
+        "y": 11
+      },
+      "growthRate": 1,
+      "id": "id:planet:2a5c662d-630f-4268-9dd4-b34daff01c01",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 7,
+        "y": 16
+      },
+      "growthRate": 1,
+      "id": "id:planet:dbc05596-2e6a-43c1-a6f9-7e8ee35c031e",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 24,
+        "y": 2
+      },
+      "growthRate": 3,
+      "id": "id:planet:660cfeb6-fbe7-492a-ae0d-556f34788876",
+      "numberOfShips": 10,
+      "owner": "NEUTRAL"
+    },
+    {
+      "coordinates": {
+        "x": 24,
+        "y": 24
+      },
+      "growthRate": 3,
+      "id": "id:planet:70b1eb58-56fa-478b-9248-52e7a2b9daa1",
+      "numberOfShips": 16,
+      "owner": "RANDOM"
+    }
+  ],
+  "players": [
+    "gergely.varkonyi@doctusoft.com",
+    "RANDOM"
+  ],
+  "startedAt": 1560513562761,
+  "turn": 1
+}

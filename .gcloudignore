@@ -1,0 +1,4 @@
+node_modules
+resource
+.cache
+src

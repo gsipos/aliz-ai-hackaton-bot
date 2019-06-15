@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "sourcePlanet": "id:planet:660cfeb6-fbe7-492a-ae0d-556f34788876",
+      "destinationPlanet": "id:planet:40ab5bbf-72ef-45f0-a6cd-c7ff4e650944",
+      "numberOfShips": 7
+    }
+  ]
+}

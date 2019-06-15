@@ -1,0 +1,20 @@
+{
+  "name": "aliz-ai-hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "deploy": "gcloud functions deploy bot --entry-point bot --runtime nodejs10 --region europe-west1 --trigger-http --project sipi-dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "typescript": "^3.5.1"
+  },
+  "engines": {
+    "node": "10"
+  }
+}
