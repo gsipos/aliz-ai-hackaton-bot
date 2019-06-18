@@ -17,7 +17,7 @@ export const distance = (destination: Planet, source: Planet) => {
       Math.pow(destination.coordinates.x - source.coordinates.x, 2) +
         Math.pow(destination.coordinates.y - source.coordinates.y, 2)
     )
-  );
+  ) + 1;
 };
 
 export const getRandomInt = (min: number, max: number) => {

@@ -93,8 +93,8 @@ const naiveAttack = (commands: Command[]) => {
     .map(p => {
       const target = [...enemyPlanets]
         .sort((a, b) => {
-          const costA = growth(a) / Math.abs(a.balance);
-          const costB = growth(b) / Math.abs(b.balance);
+          const costA = growth(a) / (Math.abs(a.balance) * distance(a,p));
+          const costB = growth(b) / (Math.abs(b.balance) * distance(b,p));
           return costB - costA;
         })
         .filter(e => e.balance < 0)
